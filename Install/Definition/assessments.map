@@ -32,14 +32,6 @@
         "Extra": ""
     },
     "4": {
-        "Field": "assignedTo",
-        "Type": "bigint(20)",
-        "Null": "YES",
-        "Key": "",
-        "Default": null,
-        "Extra": ""
-    },
-    "5": {
         "Field": "task",
         "Type": "bigint(20)",
         "Null": "YES",
@@ -47,8 +39,16 @@
         "Default": null,
         "Extra": ""
     },
+    "5": {
+        "Field": "service",
+        "Type": "bigint(20)",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+    },
     "6": {
-        "Field": "organization",
+        "Field": "importer",
         "Type": "bigint(20)",
         "Null": "YES",
         "Key": "",
@@ -56,6 +56,14 @@
         "Extra": ""
     },
     "7": {
+        "Field": "organization",
+        "Type": "bigint(20)",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+    },
+    "8": {
         "Field": "isArchived",
         "Type": "int(1)",
         "Null": "NO",
@@ -63,7 +71,7 @@
         "Default": "0",
         "Extra": ""
     },
-    "8": {
+    "9": {
         "Field": "targetTable",
         "Type": "varchar(255)",
         "Null": "YES",
@@ -71,7 +79,7 @@
         "Default": null,
         "Extra": ""
     },
-    "9": {
+    "10": {
         "Field": "targetId",
         "Type": "bigint(20)",
         "Null": "YES",
