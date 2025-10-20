@@ -12,6 +12,7 @@ class AssessmentsPostModel extends AssessmentsModel {
      */
     public function post($record): array
     {
+        error_log("Updating: " . print_r($record, true));
         // Check if the record ID is below 9999
         if($record['id'] <= 9999) return [];
 
@@ -27,6 +28,7 @@ class AssessmentsPostModel extends AssessmentsModel {
                     break;
             }
         }
+        error_log("Processed: " . print_r($record, true));
 
         // Return the record
         return $record;
